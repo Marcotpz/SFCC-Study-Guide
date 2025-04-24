@@ -164,11 +164,11 @@ to extend or create a new model?
   - Einstein recommendations can be set on staging/dev/prod, not sandbox
 - Using Content Link Functions
   - Functions
-    - $staticlink$
+    - $staticlink$ - link to img
     - $url$
-    - $httpUrl$
-    - $httpsUrl$
-    - $include$
+    - $httpUrl$ - generate url
+    - $httpsUrl$ - // //
+    - $include$ - remote include
   - Behind the scenes, each function utilizes URLUtils
     - Format makes script html safe
   - Example
@@ -202,7 +202,7 @@ to extend or create a new model?
       - Not visible in BM
       - Can be exported as part of content library
 - Page Visibility
-  - `isVisible()` returns true is page is visible
+  - `isVisible()` returns true if page is visible
     - Published?
     - Set to visible in current locale?
     - All visibility rules apply?
